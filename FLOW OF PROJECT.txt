@@ -1,0 +1,19 @@
+1. Gujarati News Classification Dataset from kaggle.
+
+2. 2 datasets - Training and Testing - csv format
+
+3. Training dataset converted to json from csv
+
+4. Dataset has 3 categories; Entertainment, Business, Tech
+
+5. Model.py : the code to train the model with preprocessing steps as well
+
+6. Input to the model is news headline and output would be its corresponding tags
+
+7. Input from user is taken in 2 ways, either textual input or audio input
+
+8. Model - Testing&GenerateCSV.py : this py file is to automate the process of news classification i.e. the testing data available was kept in csv format and the tags were generated using this code
+
+9. Model - Accuracy.py : to print the accuracy and confusion matrix of the model
+
+10. Model - GUI.py : to generate a gui interface for the model
